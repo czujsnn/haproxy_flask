@@ -5,3 +5,5 @@
 
 FROM haproxy:2.3
 COPY haproxy.cfg /usr/local/etc/haproxy/haproxy.cfg
+COPY blacklist_agent.lst /usr/local/etc/haproxy/blacklist_agent.lst
+COPY whitelist_agent.lst /usr/local/etc/haproxy/whitelist_agent.lst
